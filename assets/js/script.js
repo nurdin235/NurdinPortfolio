@@ -472,7 +472,7 @@ carouselTrack.addEventListener('touchend', () => {
     } else {
         updateCarousel(); // Snap back to current slide if not enough swipe
     }
-    startAutoplay(); // Resume autoplay after touch interaction
+    startAutoplay(); // cv autoplay after touch interaction
 });
 
 // --- Initialization ---

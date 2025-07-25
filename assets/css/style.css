@@ -953,7 +953,10 @@ textarea{
     max-width: 100%;
     height: auto;
 }
-
+.footer-logo p span{
+    color: var(--color-white);
+    font-size: 48px;
+}
 .footer-column {
     flex: 1; /* Allows columns to grow and shrink */
     min-width: 180px; /* Minimum width before wrapping */
@@ -1518,10 +1521,35 @@ textarea{
     }
 }
 
+
 /* Extra small devices (optional, for very narrow screens) */
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 480px) {
     .top-header h1 {
         font-size: 1.8rem;
+    }
+    .scroll-btn{
+        display: none;
+    }
+    .btn.but{
+        font-size: medium;
+        padding-left: 50px;
+    }
+    .contact-info .email{
+        font-size: 16px;
+      
+    }
+    .about_cards .about_card i{
+        font-size: 18px;
+        margin-bottom: -8px;
+    }
+    .about_cards .about_card h4{
+        margin-top: 0px;
+        font-size: 15px;
+    }
+    .about_cards .about_card small{
+        font-size: 10px;
+        margin-top: -5px;
+        margin-bottom: 15px;
     }
     .services_left li {
         flex-direction: column; /* Stack icon and text vertically if very narrow */
