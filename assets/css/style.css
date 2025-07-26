@@ -338,8 +338,7 @@ h3{
     margin-top: 2.5rem;
 }
 .about_image{
-    border: 1rem solid var(--color-gray-100);
-    background: #1a1a2e;
+    /* border: 1rem solid var(--color-gray-100); */
     height: fit-content;
     border-radius: 3.7rem;
     max-height: 38rem;
